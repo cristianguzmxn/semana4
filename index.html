@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="js/audiokeys.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>THE MUSIC PORTAL</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" href="images/circle.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css?family=Baloo|Comfortaa:300,400,700|Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+</head>
+
+  <body>
+  	
+
+  	<!-- animacion entrada -->
+  	  <div>
+  	<img class="intro" src="images/intro-01.jpg">
+  	<img class="intro2" src="images/intro-02.jpg">
+  	<script type="text/javascript" src="js/intro.js"></script>
+      </div>
+  	
+
+  	
+  	<header>
+  		<a href="index.html">
+  	<img class="logo" src="images/logo1.png">
+  		</a>
+  	 
+
+  	  <nav class="icons">
+
+  	  	<a class="iconos" href="index.html"><img src="images/music-10.png"></a>
+  	  	<a class="iconos" href="#second"><img src="images/music-06.png"></a>
+  		<a class="iconos" href="#third"><img src="images/music-02.png"></a>
+
+  		<div>audioKeys &nbsp; &nbsp;  &nbsp;instruments&nbsp; &nbsp;&nbsp;      albums</div>
+
+
+
+
+  		 <a class="buy" href="#third">  <h4 style="	 
+    color: #EF6C00;
+   
+    position:absolute;
+    margin-top: -3%;
+    margin-left: 38%;
+	font-family: 'Baloo', cursive;
+	font-size: 150%;" ">get music now!</h4>
+       </a>
+
+  	  </nav>
+
+
+
+
+   </header>
+
+   <div style="
+   opacity: 0.3;
+   margin-top: 2%;
+   margin-left: 4%;
+   height: 2px; 
+   background-color: #EF6C00;
+  "></div>
+ 
+
+
+
+
+   <!-- teclado -->
+    <div class="label">
+
+
+    <label for="rows">Keyboard Layout:</label>
+    <select name="rows" id="row-select">
+      <option value="1">1 Row</option>
+      <option value="2">2 Rows</option>
+    </select>
+    <label for="polyphony">Polyphony:</label>
+    <select name="polyphony" id="polyphony">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+
+    <label for="priority">Priority:</label>
+    <select name="priority" id="priority">
+      <option value="last">Last</option>
+      <option value="first">First</option>
+      <option value="lowest">Lowest</option>
+      <option value="highest">Highest</option>
+    </select>
+
+    <p></p>
+    <hr>
+    </div>
+    <h5 style="
+    color: #EF6C00;
+   
+    position:relative;
+    margin-top: 10%;
+    margin-left: 3%;
+	font-family: 'Baloo', cursive;
+	font-size: 280%;" ">let's play with<br> your keyboard</h5>
+    
+
+
+    <img id="image1" src="images/audiokeys-mapping.svg" alt="">
+    <img id="image2" src="images/audiokeys-mapping-0.png" style="display: none" alt="">
+
+<!--instruments-->
+
+
+<div id="second" class="instruments">
+	<h1 class="subtitles">instruments</h1>
+
+	<img style="width: 250px;
+	height: 250px;" src="images/icons-03.png">
+	<img style="width: 250px;
+	height: 250px;" src="images/icons-04.png">
+	<img style="width: 250px;
+	height: 250px;" src="images/icons-05.png">
+    <h6>&nbsp; &nbsp;acoustic guitars &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  saxophone &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;   trumpets    </h6>
+
+	
+	<img style="width: 250px;
+	height: 250px;" src="images/icons-06.png">
+	<img style="width: 250px;
+	height: 250px;" src="images/icons-07.png">
+    <img style="width: 250px;
+	height: 250px;" src="images/icons-08.png">
+
+	<h6>&nbsp; &nbsp;electric guitars &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  basses &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;   amplifiers    </h6>
+
+</div>
+
+
+
+<!-- albumes -->
+
+<a style="text-decoration: none;"  href="">
+<div id="third" class="albums">
+	<h1 class="subtitles1">the best albums</h1>
+<div class="music-case">
+  <div class="front-case">
+    <div class="icon"></div>
+  </div>
+  <div class="disc">
+    <div class="hole"></div>
+  </div>
+  <div class="back-case"></div>
+</div>
+</div>
+</a>
+
+<a style="text-decoration: none;"  href="">
+<div style="margin-left: 25%; margin-top: 16%;" id="third" class="albums">
+	
+<div class="music-case">
+  <div class="front-case">
+    <div class="icon"></div>
+  </div>
+  <div class="disc">
+    <div class="hole"></div>
+  </div>
+  <div class="back-case"></div>
+</div>
+</div>
+</a>
+
+
+<a style="text-decoration: none;"  href="">
+<div style="margin-left: 50%; margin-top: 16%;"  id="third" class="albums">
+
+<div class="music-case">
+  <div class="front-case">
+    <div class="icon"></div>
+  </div>
+  <div class="disc">
+    <div class="hole"></div>
+  </div>
+  <div class="back-case"></div>
+</div>
+</div>
+</a>
+ <div style="font-family: 'Nunito', sans-serif; color:#BC0A2C;  font-size: 120%; margin-top: 132%; position: absolute;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctrl - sza  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; frank - amy winehouse &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     unapologetic - rihanna</div>
+
+<audio controls style=" margin-top: 36%; margin-left: 17%; width: 200px; opacity: 0.7;">   <source src="audio/sza.mp3"
+type="audio/mpeg">
+  
+</audio>
+
+
+<audio controls style=" margin-top:-2.4% ; margin-left: 42%; width: 200px; opacity: 0.7;">   <source src="audio/amy.mp3"
+type="audio/mpeg">
+  
+</audio>
+
+
+<audio controls style=" margin-top:-2.4% ; margin-left: 67%; width: 200px; opacity:
+0.7;">   <source src="audio/rih.mp3" type="audio/mpeg">
+  
+</audio>
+
+
+
+<embed src="sound.wav" autostart="true" loop="true" volume="80" width="0" height="0">
+ 
+ 
+
+
+
+
+
+
+
+  	
+  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="js/script.js"></script>
+<footer style="margin-top: 13%; text-align: center; background-color: #151515; color:#EF6C00; font-size: 20px; "> copyright <b>the music portal 2017</b>
+  		
+  	</footer>
+
+  </body>
+  </html>
